@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("BD_TALLER_PANOL.csv", sep=";")
+df = pd.read_csv("../BD_TALLER_PANOL.csv", sep=";")
 
 # Título principal
 st.title("Sistema Principal de Control")
